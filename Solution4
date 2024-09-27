@@ -1,0 +1,31 @@
+import java.util.Scanner;  // Import the Scanner class for user input
+
+public class Solution4 {
+
+    // Main method - entry point of the program
+    public static void main(String[] args) {
+        // Create a Scanner object to read input from the console
+        Scanner scan = new Scanner(System.in);
+
+        // Read an integer value from the user
+        int i = scan.nextInt();
+
+        // Read a double value from the user
+        Double d = scan.nextDouble();
+
+        // Consume the remaining newline character after reading the double
+        scan.nextLine(); 
+
+        // Read a string (line of text) from the user
+        String s = scan.nextLine();
+
+        // Output the string value with a label
+        System.out.println("String: " + s);
+
+        // Output the double value with a label
+        System.out.println("Double: " + d);
+
+        // Output the integer value with a label
+        System.out.println("Int: " + i);
+    }
+}
